@@ -1,0 +1,23 @@
+{
+  "name": "ark-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ark": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.18",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "inquirer": "^7.0.1",
+    "shelljs": "^0.8.3"
+  }
+}
